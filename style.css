@@ -1,0 +1,149 @@
+body{
+    background-color:aquamarine;
+    /* background-image: linear-gradient( to right, #10F7A9,#0EC4C7 ); */
+    
+
+}
+#maincontainer{
+
+    
+    background-color: black;
+    margin:auto;
+    margin-top:90px ;
+    height: 600px;
+    width: 1200px;
+    border-radius: 15px;
+    position: relative;
+
+
+}
+#leftpart{
+/*     
+    background-color: #f2f2f2; */
+    background-color:black ;
+    height:100%;
+    width: 30%;
+    border-radius: 15px;
+    position: absolute;
+
+}
+#rightpart{
+   
+    margin:auto;
+    height:100%;
+    width: 830px;
+   
+    position: absolute;
+    right :1px;
+    top:0.5px;
+    bottom:0.51px;
+    color: black;
+    border-left: 3px solid aquamarine;
+
+}
+
+h1{
+    color: rgb(14, 224, 185) ;
+    text-align:center ;
+    font-family: sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+h3{
+        margin-top: none;
+        color: rgb(14, 224, 185) ;
+        text-align:center ;
+        font-family: sans-serif;
+        -webkit-text-stroke: 1px white;
+
+}
+hr{
+    width: 300px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-top: 1px solid aquamarine;
+    border-bottom: 1px solid white;
+}
+/* #heading{
+
+    -webkit-text-stroke: 1px white;
+} */
+.input{
+    border-top:0px;
+    border-bottom:3px solid aquamarine;
+    border-left: none;
+    border-right:0px;
+    background-color: black;
+    margin-top: 10px ;
+    width: 300px;
+    margin-left: 22px;
+    color: aqua;
+    outline: none;
+  }
+  .input2{
+    border-top:0px;
+    border-bottom:3px solid aquamarine;
+    border-left: none;
+    border-right:0px;
+    background-color: black;
+    margin-top: 19px ;
+    width: 650px;
+    margin-left: 22px;
+    color: aqua;
+    outline: none;
+  }
+
+  #leftitems{
+
+    margin: auto;
+    background-color:black;
+    height:450px;
+    width: 300px;
+    position: relative;
+    border: 3px solid aquamarine;
+    border-radius: 15px;
+    overflow: scroll;
+    scrollbar-width: 2px;
+    
+    
+
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: black; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: aquamarine; 
+  }
+  
+  
+  #rightitems{
+
+    margin: auto;
+    background-color:black;
+    height:420px;
+    width: 700px;
+    position: relative;
+    border: 3px solid aquamarine;
+    border-radius: 15px;
+    
+
+  }
+  span{
+
+    color: aqua;
+    font-size: 30px;
+    
+  }
+
+  button{
+
+    background-color: aquamarine ;
+
+
+
+  }
+
