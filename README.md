@@ -1,2 +1,2 @@
 # TODO-S-LIST
-Create Your Todo List  For Daily Taks
+Create Your Todo List  For Daily Taks (Javascript Based)
